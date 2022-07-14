@@ -1,3 +1,31 @@
+body{
+    font-family: 'EB Garamond', serif;
+    margin: 0%;
+}
 h1{
-    color: blue;
+    font-size: 50px;
+}
+span{
+    color: chocolate;
+}
+section{
+    display: flex;
+}
+.h-wi{
+    width: 50%;
+    padding-left: 10%;
+}
+.h-wi img{
+    width: 80%;
+}
+.link-design{
+    text-decoration: none;
+    background-image: linear-gradient(blue,green);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10%;
+}
+.top-color{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
